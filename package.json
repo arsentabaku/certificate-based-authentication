@@ -6,7 +6,8 @@
     "license": "MIT",
     "scripts": {
         "server": "node ./server/server.js",
-        "valid-client": "node ./client/valid-app.js"
+        "valid-client": "node ./client/valid-app.js",
+        "invalid-client": "node ./client/invalid-app.js"
     },
     "dependencies": {
         "axios": "^0.18.0",

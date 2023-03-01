@@ -1,8 +1,8 @@
 {
     "name": "certificate-based-authentication",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Certificate based authentication",
-    "author": "VRdirect",
+    "author": "Arsen Tabaku",
     "license": "MIT",
     "scripts": {
         "server": "node ./server/server.js",

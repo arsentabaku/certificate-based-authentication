@@ -1,0 +1,14 @@
+{
+    "name": "certificate-based-authentication",
+    "version": "0.0.1",
+    "description": "Certificate based authentication",
+    "author": "VRdirect",
+    "license": "MIT",
+    "scripts": {
+        "server": "node ./server/server.js"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "express": "^4.16.3"
+    }
+}

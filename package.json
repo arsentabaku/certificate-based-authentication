@@ -5,7 +5,8 @@
     "author": "VRdirect",
     "license": "MIT",
     "scripts": {
-        "server": "node ./server/server.js"
+        "server": "node ./server/server.js",
+        "valid-client": "node ./client/valid-app.js"
     },
     "dependencies": {
         "axios": "^0.18.0",

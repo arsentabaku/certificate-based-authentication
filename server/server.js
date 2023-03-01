@@ -4,11 +4,11 @@ const https = require("https");
 const path = require("path");
 
 const serverOptions = {
-  key: fs.readFileSync(path.join(__dirname, "server_key.pem")),
-  cert: fs.readFileSync(path.join(__dirname, "server_cert.pem")),
+  key: fs.readFileSync(path.join(__dirname, "certificates/server_key.pem")),
+  cert: fs.readFileSync(path.join(__dirname, "certificates/server_cert.pem")),
   requestCert: true,
   rejectUnauthorized: false,
-  ca: [fs.readFileSync(path.join(__dirname, "server_cert.pem"))],
+  ca: [fs.readFileSync(path.join(__dirname, "certificates/server_cert.pem"))],
 };
 
 const app = express();
